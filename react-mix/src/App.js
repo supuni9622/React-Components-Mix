@@ -33,7 +33,7 @@ const App = () => {
   return (
     <Router>
     <div className='wrapper'>
-    <div className='side' style={{maxHeight:'100vh'}}>
+    <div className='side'>
       <Navigation/>
     </div>
     <div className='main'>
