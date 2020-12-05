@@ -26,6 +26,7 @@ import ReactVirtualizedTable from './components/reactVirtualizedTable/ReactVirtu
 import Notifications from './components/notifications/Notifications';
 import ReactEventTimeline from './components/eventTimeline/ReactEventTimeline';
 import ReactUserAvatar from './components/userAvatar/ReactUserAvatar';
+import Drawer from './components/drawer/Drawer';
 
 import './App.css';
 
@@ -64,6 +65,7 @@ const App = () => {
             <Route path='/notifications' component={Notifications}/>
             <Route path='/react-event-timeline' component={ReactEventTimeline}/>
             <Route path='/react-user-avatar' component={ReactUserAvatar}/>
+            <Route path='/drawer' component={Drawer}/>
           </Switch>
         </div>
     </div>

@@ -30,6 +30,7 @@ const Navigation = () => {
             <Link to='/notifications' className='btn btn-info mb-2 w-100'>Notifications</Link> <br/>
             <Link to='/react-event-timeline' className='btn btn-info mb-2 w-100'>React Event Time Line</Link> <br/>
             <Link to='/react-user-avatar' className='btn btn-info mb-2 w-100'>React User Avatar</Link> <br/>
+            <Link to='/drawer' className='btn btn-info mb-2 w-100'>Drawer</Link> <br/>
         </div>
     )
 }
