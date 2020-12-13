@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import loginImage from './loginImage.svg';
 
-const Register = () => {
+const Register = ({containerRef}) => {
+
+    const containerVal = useRef(containerRef);
     return (
-        <div className='base-container'>
+        <div className='base-container' ref={containerVal}>
             <div className='header'>
                  Register
             </div>
@@ -27,7 +29,7 @@ const Register = () => {
                 </div>
             </div>
             <div className='footer'>
-                <button type='button' className='btn'> Register </button>
+                <button type='button' className='btn-login'> Register </button>
             </div>
         </div>
     )

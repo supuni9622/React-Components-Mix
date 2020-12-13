@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import loginImage from './loginImage.svg';
 
-const Login = () => {
+const Login = ({containerRef}) => {
+
+    const containerVal = useRef(containerRef);
     return (
-        <div className='base-container'>
+        <div className='base-container' ref={containerVal}>
             <div className='header'>
                  Login
             </div>
@@ -23,7 +25,7 @@ const Login = () => {
                 </div>
             </div>
             <div className='footer'>
-                <button type='button' className='btn'> Login </button>
+                <button type='button' className='btn-login'> Login </button>
             </div>
         </div>
     )
