@@ -27,6 +27,8 @@ import Notifications from './components/notifications/Notifications';
 import ReactEventTimeline from './components/eventTimeline/ReactEventTimeline';
 import ReactUserAvatar from './components/userAvatar/ReactUserAvatar';
 import Drawer from './components/drawer/Drawer';
+import NumberFormat from './components/numeral/NumberFormat';
+import HeatMapComponent from './components/heatMap/HeatMapComponent';
 
 import './App.css';
 
@@ -66,6 +68,8 @@ const App = () => {
             <Route path='/react-event-timeline' component={ReactEventTimeline}/>
             <Route path='/react-user-avatar' component={ReactUserAvatar}/>
             <Route path='/drawer' component={Drawer}/>
+            <Route path='/heat-map' component={HeatMapComponent}/>
+            <Route path='/numeral' component={NumberFormat}/>
           </Switch>
         </div>
     </div>

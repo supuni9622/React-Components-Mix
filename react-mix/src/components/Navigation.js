@@ -31,6 +31,8 @@ const Navigation = () => {
             <Link to='/react-event-timeline' className='btn btn-info mb-2 w-100'>React Event Time Line</Link> <br/>
             <Link to='/react-user-avatar' className='btn btn-info mb-2 w-100'>React User Avatar</Link> <br/>
             <Link to='/drawer' className='btn btn-info mb-2 w-100'>Drawer</Link> <br/>
+            <Link to='/heat-map' className='btn btn-info mb-2 w-100'>Heat-Map</Link> <br/>
+            <Link to='/numeral' className='btn btn-info mb-2 w-100'>Number Formats</Link> <br/>
         </div>
     )
 }
