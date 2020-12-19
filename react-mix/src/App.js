@@ -29,6 +29,7 @@ import ReactUserAvatar from './components/userAvatar/ReactUserAvatar';
 import Drawer from './components/drawer/Drawer';
 import NumberFormat from './components/numeral/NumberFormat';
 import HeatMapComponent from './components/heatMap/HeatMapComponent';
+import FormValidation from './components/formValidation/FormValidation';
 
 import './App.css';
 
@@ -44,6 +45,7 @@ const App = () => {
             <Route exact path='/' component={Home}/>
             <Route path='/login-component' component={LoginComponent}/>
             <Route path='/multi-step-form' component={MultiStepForm}/>
+            <Route path='/formValidation' component={FormValidation}/>
             <Route path='/react-icons' component={ReactIcons}/>
             <Route path='/react-modal' component={ReactModal}/>
             <Route path='/react-tooltip' component={ReactToolTip}/>

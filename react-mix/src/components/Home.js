@@ -86,6 +86,15 @@ const Home = () => {
             <div className='box box26'>
                 Drawer
             </div>
+            <div className='box box27'>
+                Heat Map
+            </div>
+            <div className='box box28'>
+                Number Format
+            </div>
+            <div className='box box29'>
+                Form Validation
+            </div>
         </div>
         </Container>
     )

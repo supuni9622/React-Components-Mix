@@ -7,6 +7,7 @@ const Navigation = () => {
             <Link to='/' className='btn btn-info mb-2 w-100'>Home</Link> <br/>
             <Link to='/login-component' className='btn btn-info mb-2 w-100'>Login Component</Link> <br/>
             <Link to='/multi-step-form' className='btn btn-info mb-2 w-100'>Multi Step Form</Link> <br/>
+            <Link to='/formValidation' className='btn btn-info mb-2 w-100'>Form Validation</Link> <br/>
             <Link to='/react-icons' className='btn btn-info mb-2 w-100'>React Icons</Link> <br/>
             <Link to='/react-modal' className='btn btn-info mb-2 w-100'>React Modal</Link> <br/>
             <Link to='/react-tooltip' className='btn btn-info mb-2 w-100'>React Tooltip</Link> <br/>
