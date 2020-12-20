@@ -34,6 +34,7 @@ const Navigation = () => {
             <Link to='/drawer' className='btn btn-info mb-2 w-100'>Drawer</Link> <br/>
             <Link to='/heat-map' className='btn btn-info mb-2 w-100'>Heat-Map</Link> <br/>
             <Link to='/numeral' className='btn btn-info mb-2 w-100'>Number Formats</Link> <br/>
+            <Link to='/sortable' className='btn btn-info mb-2 w-100'>Sortable Components</Link> <br/>
         </div>
     )
 }

@@ -95,6 +95,9 @@ const Home = () => {
             <div className='box box29'>
                 Form Validation
             </div>
+            <div className='box box30'>
+                Sortable Components
+            </div>
         </div>
         </Container>
     )

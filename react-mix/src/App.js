@@ -30,6 +30,7 @@ import Drawer from './components/drawer/Drawer';
 import NumberFormat from './components/numeral/NumberFormat';
 import HeatMapComponent from './components/heatMap/HeatMapComponent';
 import FormValidation from './components/formValidation/FormValidation';
+import SortableIndex from './components/sortable/SortableIndex';
 
 import './App.css';
 
@@ -72,6 +73,7 @@ const App = () => {
             <Route path='/drawer' component={Drawer}/>
             <Route path='/heat-map' component={HeatMapComponent}/>
             <Route path='/numeral' component={NumberFormat}/>
+            <Route path='/sortable' component={SortableIndex}/>
           </Switch>
         </div>
     </div>
